@@ -48,7 +48,7 @@ class RetrieveTicketsID {
   
   	   public static void main(String[] args) throws IOException, JSONException {
 		   
-		   String projName ="ACCUMULO";
+		   String projName ="OPENJPA";
 	   Integer j = 0, i = 0, total = 1;
       //Get JSON API for closed bugs w/ AV in the project
       do {
