@@ -1,0 +1,28 @@
+/workspaces/analysis/m4/C_A_1.java:3:	UnnecessaryImport:	Unused import 'java.lang.reflect.Field'
+/workspaces/analysis/m4/C_A_1.java:4:	UnnecessaryImport:	Unused import 'java.lang.reflect.Method'
+/workspaces/analysis/m4/C_A_1.java:5:	UnnecessaryImport:	Unused import 'java.lang.reflect.Modifier'
+/workspaces/analysis/m4/C_A_1.java:6:	UnnecessaryImport:	Unused import 'java.security.AccessController'
+/workspaces/analysis/m4/C_A_1.java:8:	UnnecessaryImport:	Unused import 'org.apache.commons.lang.StringUtils'
+/workspaces/analysis/m4/C_A_1.java:9:	UnnecessaryImport:	Unused import 'org.apache.openjpa.conf.OpenJPAConfiguration'
+/workspaces/analysis/m4/C_A_1.java:10:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.AbstractDataCache'
+/workspaces/analysis/m4/C_A_1.java:11:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.DataCache'
+/workspaces/analysis/m4/C_A_1.java:12:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.DataCacheMode'
+/workspaces/analysis/m4/C_A_1.java:13:	UnnecessaryImport:	Unused import 'org.apache.openjpa.enhance.PCRegistry'
+/workspaces/analysis/m4/C_A_1.java:14:	UnnecessaryImport:	Unused import 'org.apache.openjpa.enhance.Reflection'
+/workspaces/analysis/m4/C_A_1.java:16:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.conf.Configurations'
+/workspaces/analysis/m4/C_A_1.java:19:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.log.Log'
+/workspaces/analysis/m4/C_A_1.java:21:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.util.J2DoPrivHelper'
+/workspaces/analysis/m4/C_A_1.java:23:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.util.Options'
+/workspaces/analysis/m4/C_A_1.java:25:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.*'
+/workspaces/analysis/m4/C_A_1.java:26:	UnnecessaryImport:	Unused import 'serp.util.Strings'
+/workspaces/analysis/m4/C_A_1.java:89:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_1.java:107:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_1.java:117:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_1.java:120:	MissingOverride:	The method 'compareTo(ClassMetaData)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_1.java:121:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_1.java:126:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_1.java:142:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_1.java:153:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_1.java:160:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_1.java:167:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_1.java:171:	EmptyControlStatement:	Empty if statement

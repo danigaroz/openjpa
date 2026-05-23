@@ -1,0 +1,248 @@
+/workspaces/analysis/m4/C_A_0.java:41:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.AbstractDataCache'
+/workspaces/analysis/m4/C_A_0.java:268:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:271:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:316:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:328:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:346:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:356:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:361:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:373:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:378:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:382:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:395:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:400:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:404:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:404:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:406:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:429:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:431:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:433:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:435:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:468:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:476:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:486:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:487:	NonExhaustiveSwitch:	Switch statements or expressions should be exhaustive, add a default case (or missing enum branches)
+/workspaces/analysis/m4/C_A_0.java:556:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:567:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:569:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:580:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:581:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:596:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:598:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:610:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:619:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:621:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:633:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:641:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:661:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:690:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:696:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/workspaces/analysis/m4/C_A_0.java:731:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:736:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:736:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:739:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:748:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:758:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:758:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:761:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:770:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:802:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:803:	SimplifiedTernary:	This conditional expression can be simplified with || or &&
+/workspaces/analysis/m4/C_A_0.java:811:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:817:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:842:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:843:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:852:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:855:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:863:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_0.java:864:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:881:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:894:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:906:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:907:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:917:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:919:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:944:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:946:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:959:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:964:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:964:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:966:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:970:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:971:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+/workspaces/analysis/m4/C_A_0.java:972:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:982:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1009:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1031:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1043:	UnnecessarySemicolon:	Unnecessary semicolon
+/workspaces/analysis/m4/C_A_0.java:1070:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1070:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1072:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1075:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1079:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1100:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1100:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1102:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1106:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1106:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1108:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1124:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1132:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1145:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1158:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1171:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1175:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1178:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1191:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1202:	UnnecessarySemicolon:	Unnecessary semicolon
+/workspaces/analysis/m4/C_A_0.java:1205:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1241:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1255:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1284:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1290:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1316:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1347:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1371:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1399:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1401:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1405:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1448:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1451:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1481:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1481:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:1484:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1493:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:1503:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1506:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:1526:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1530:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1532:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1560:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1564:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1566:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1571:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1575:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1636:	MissingOverride:	The method 'hashCode()' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_0.java:1640:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_0.java:1642:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1643:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_0.java:1644:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1648:	MissingOverride:	The method 'compareTo(ClassMetaData)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_0.java:1649:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_0.java:1650:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1655:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_0.java:1682:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1684:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1686:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1694:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1708:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1713:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1716:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1727:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1727:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:1732:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1754:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:1780:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+/workspaces/analysis/m4/C_A_0.java:1782:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1784:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1803:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1809:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1809:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1814:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1832:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1834:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_0.java:1835:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1837:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1857:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1863:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1869:	UncommentedEmptyMethodBody:	Document empty method body
+/workspaces/analysis/m4/C_A_0.java:1878:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1888:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1917:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1934:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1937:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1942:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1956:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1963:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1981:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1988:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:1996:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2011:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2015:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2019:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2023:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2025:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2030:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2032:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2047:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2048:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_0.java:2050:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2078:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2086:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2096:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2102:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2112:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+/workspaces/analysis/m4/C_A_0.java:2125:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2130:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2135:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2146:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2146:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2148:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2161:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2163:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2168:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2183:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2189:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2192:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2195:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2209:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2210:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:2225:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2225:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2229:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2229:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2236:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:2253:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2256:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2258:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2260:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2273:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2275:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2291:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2361:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2363:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2365:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2406:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2413:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:2414:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:2416:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:2429:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2431:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2433:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2435:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2444:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2447:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2457:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2486:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+/workspaces/analysis/m4/C_A_0.java:2499:	MissingOverride:	The method 'compare(FieldMetaData, FieldMetaData)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_0.java:2501:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2503:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2505:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2509:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2512:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2514:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2518:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2520:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2527:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2532:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2564:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_0.java:2648:	UselessParentheses:	Useless parentheses.
+/workspaces/analysis/m4/C_A_0.java:2664:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'dataCacheOptions'
+/workspaces/analysis/m4/C_A_0.java:2671:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'extractDataCacheClassListing': private methods cannot be overridden
+/workspaces/analysis/m4/C_A_0.java:2673:	ControlStatementBraces:	This statement should have braces
+/workspaces/analysis/m4/C_A_0.java:2673:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/workspaces/analysis/m4/C_A_0.java:2675:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/workspaces/analysis/m4/C_A_0.java:2677:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_0.java:2684:	UnusedFormalParameter:	Avoid unused method parameters such as 'candidateCacheName'.
+/workspaces/analysis/m4/C_A_0.java:2778:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_0.java:2785:	CompareObjectsWithEquals:	Use equals() to compare object references.

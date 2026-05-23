@@ -1,0 +1,60 @@
+/workspaces/analysis/m4/C_A_2.java:20:	UnnecessaryImport:	Unused import 'java.io.File'
+/workspaces/analysis/m4/C_A_2.java:22:	UnnecessaryImport:	Unused import 'java.lang.reflect.Method'
+/workspaces/analysis/m4/C_A_2.java:25:	UnnecessaryImport:	Unused import 'java.util.ArrayList'
+/workspaces/analysis/m4/C_A_2.java:26:	UnnecessaryImport:	Unused import 'java.util.Arrays'
+/workspaces/analysis/m4/C_A_2.java:27:	UnnecessaryImport:	Unused import 'java.util.Collection'
+/workspaces/analysis/m4/C_A_2.java:28:	UnnecessaryImport:	Unused import 'java.util.Collections'
+/workspaces/analysis/m4/C_A_2.java:29:	UnnecessaryImport:	Unused import 'java.util.Comparator'
+/workspaces/analysis/m4/C_A_2.java:30:	UnnecessaryImport:	Unused import 'java.util.HashMap'
+/workspaces/analysis/m4/C_A_2.java:32:	UnnecessaryImport:	Unused import 'java.util.Iterator'
+/workspaces/analysis/m4/C_A_2.java:33:	UnnecessaryImport:	Unused import 'java.util.List'
+/workspaces/analysis/m4/C_A_2.java:36:	UnnecessaryImport:	Unused import 'java.util.TreeMap'
+/workspaces/analysis/m4/C_A_2.java:37:	UnnecessaryImport:	Unused import 'org.apache.commons.lang.StringUtils'
+/workspaces/analysis/m4/C_A_2.java:38:	UnnecessaryImport:	Unused import 'org.apache.openjpa.conf.OpenJPAConfiguration'
+/workspaces/analysis/m4/C_A_2.java:39:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.AbstractDataCache'
+/workspaces/analysis/m4/C_A_2.java:40:	UnnecessaryImport:	Unused import 'org.apache.openjpa.datacache.DataCache'
+/workspaces/analysis/m4/C_A_2.java:42:	UnnecessaryImport:	Unused import 'org.apache.openjpa.enhance.PCRegistry'
+/workspaces/analysis/m4/C_A_2.java:43:	UnnecessaryImport:	Unused import 'org.apache.openjpa.enhance.Reflection'
+/workspaces/analysis/m4/C_A_2.java:45:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.conf.Configurations'
+/workspaces/analysis/m4/C_A_2.java:52:	UnnecessaryImport:	Unused import 'org.apache.openjpa.lib.util.Options'
+/workspaces/analysis/m4/C_A_2.java:54:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.BigDecimalId'
+/workspaces/analysis/m4/C_A_2.java:55:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.BigIntegerId'
+/workspaces/analysis/m4/C_A_2.java:56:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.ByteId'
+/workspaces/analysis/m4/C_A_2.java:57:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.CharId'
+/workspaces/analysis/m4/C_A_2.java:58:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.DateId'
+/workspaces/analysis/m4/C_A_2.java:59:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.DoubleId'
+/workspaces/analysis/m4/C_A_2.java:60:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.FloatId'
+/workspaces/analysis/m4/C_A_2.java:61:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.GeneralException'
+/workspaces/analysis/m4/C_A_2.java:62:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.IntId'
+/workspaces/analysis/m4/C_A_2.java:63:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.InternalException'
+/workspaces/analysis/m4/C_A_2.java:64:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.LongId'
+/workspaces/analysis/m4/C_A_2.java:66:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.ObjectId'
+/workspaces/analysis/m4/C_A_2.java:67:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.OpenJPAId'
+/workspaces/analysis/m4/C_A_2.java:68:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.ShortId'
+/workspaces/analysis/m4/C_A_2.java:69:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.StringId'
+/workspaces/analysis/m4/C_A_2.java:70:	UnnecessaryImport:	Unused import 'org.apache.openjpa.util.UnsupportedException'
+/workspaces/analysis/m4/C_A_2.java:72:	UnnecessaryImport:	Unused import 'serp.util.Strings'
+/workspaces/analysis/m4/C_A_2.java:153:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_2.java:175:	MissingOverride:	The method 'equals(Object)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_2.java:179:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_2.java:184:	MissingOverride:	The method 'compareTo(ClassMetaData)' is missing an @Override annotation.
+/workspaces/analysis/m4/C_A_2.java:185:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_2.java:219:	UnusedPrivateMethod:	Avoid unused private methods such as 'recursiveEmbed(ValueMetaData)'.
+/workspaces/analysis/m4/C_A_2.java:225:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_2.java:260:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+/workspaces/analysis/m4/C_A_2.java:281:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_2.java:318:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_2.java:388:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+/workspaces/analysis/m4/C_A_2.java:394:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_2.java:439:	UnusedPrivateMethod:	Avoid unused private methods such as 'validateNoPKFields()'.
+/workspaces/analysis/m4/C_A_2.java:441:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_2.java:447:	UnusedPrivateMethod:	Avoid unused private methods such as 'validateAccessType()'.
+/workspaces/analysis/m4/C_A_2.java:523:	UnusedPrivateMethod:	Avoid unused private methods such as 'extractDataCacheClassListing(String)'.
+/workspaces/analysis/m4/C_A_2.java:523:	UnnecessaryModifier:	Unnecessary modifier 'final' on method 'extractDataCacheClassListing': private methods cannot be overridden
+/workspaces/analysis/m4/C_A_2.java:525:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+/workspaces/analysis/m4/C_A_2.java:527:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+/workspaces/analysis/m4/C_A_2.java:529:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+/workspaces/analysis/m4/C_A_2.java:534:	UnusedPrivateMethod:	Avoid unused private methods such as 'isCacheable(String)'.
+/workspaces/analysis/m4/C_A_2.java:534:	UnusedFormalParameter:	Avoid unused method parameters such as 'candidateCacheName'.
+/workspaces/analysis/m4/C_A_2.java:595:	CompareObjectsWithEquals:	Use equals() to compare object references.
+/workspaces/analysis/m4/C_A_2.java:602:	CompareObjectsWithEquals:	Use equals() to compare object references.
