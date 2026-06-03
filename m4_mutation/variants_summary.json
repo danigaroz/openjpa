@@ -1,0 +1,38 @@
+{
+  "variants_analysis": {
+    "description": "Functional preservation analysis of Copilot's refactorings on C_B (Math.java)",
+    "method": "Randoop auto-generated tests applied across all variants",
+    "variants_tested": [
+      "C_B_1",
+      "C_B_2",
+      "C_B_3",
+      "C_B_4"
+    ],
+    "tests_per_variant": 72,
+    "test_files_lines_of_code": 1335,
+    "diff_between_variants_test_suites": "0 lines (identical)",
+    "cross_variant_test_results": {
+      "C_B_1": {
+        "run": 72,
+        "failures": 0,
+        "errors": 0
+      },
+      "C_B_2": {
+        "run": 72,
+        "failures": 0,
+        "errors": 0
+      },
+      "C_B_3": {
+        "run": 72,
+        "failures": 0,
+        "errors": 0
+      },
+      "C_B_4": {
+        "run": 72,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "conclusion": "All Copilot refactorings of C_B preserved full functional behavior. Randoop produced identical regression test suites for each variant."
+  }
+}
