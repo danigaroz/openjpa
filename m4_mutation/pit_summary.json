@@ -1,0 +1,178 @@
+{
+  "tool": "PIT 1.15.0",
+  "target_class": "org.apache.openjpa.jdbc.kernel.exps.Math",
+  "test_classes_used": [
+    "MathTest (BB only, augmented with Mockito-based oracle tests)"
+  ],
+  "iterations": [
+    {
+      "label": "Initial BB tests",
+      "killed": 3,
+      "survived": 3,
+      "no_coverage": 18,
+      "total": 24,
+      "mutation_score": 13,
+      "line_coverage": 25,
+      "test_strength": 50
+    },
+    {
+      "label": "After adding 3 Mockito-based oracle tests",
+      "killed": 6,
+      "survived": 0,
+      "no_coverage": 18,
+      "total": 24,
+      "mutation_score": 25,
+      "line_coverage": 28,
+      "test_strength": 100
+    }
+  ],
+  "killed_mutations": [
+    {
+      "line": "159",
+      "method": "getId",
+      "description": "replaced int return with 0 for org/apache/openjpa/jdbc/kernel/exps/Math::getId",
+      "status": "KILLED"
+    },
+    {
+      "line": "73",
+      "method": "getMetaData",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::getMetaData",
+      "status": "KILLED"
+    },
+    {
+      "line": "69",
+      "method": "getOperation",
+      "description": "replaced return value with \"\" for org/apache/openjpa/jdbc/kernel/exps/Math::getOperation",
+      "status": "KILLED"
+    },
+    {
+      "line": "61",
+      "method": "getVal1",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::getVal1",
+      "status": "KILLED"
+    },
+    {
+      "line": "65",
+      "method": "getVal2",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::getVal2",
+      "status": "KILLED"
+    },
+    {
+      "line": "140",
+      "method": "length",
+      "description": "replaced int return with 0 for org/apache/openjpa/jdbc/kernel/exps/Math::length",
+      "status": "KILLED"
+    }
+  ],
+  "survived_initial": [],
+  "no_coverage": [
+    {
+      "line": "152",
+      "method": "acceptVisit",
+      "description": "removed call to org/apache/openjpa/kernel/exps/ExpressionVisitor::enter",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "153",
+      "method": "acceptVisit",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::acceptVisit",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "154",
+      "method": "acceptVisit",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::acceptVisit",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "155",
+      "method": "acceptVisit",
+      "description": "removed call to org/apache/openjpa/kernel/exps/ExpressionVisitor::exit",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "146",
+      "method": "appendTo",
+      "description": "removed call to org/apache/openjpa/jdbc/sql/DBDictionary::mathFunction",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "135",
+      "method": "calculateValue",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::calculateValue",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "136",
+      "method": "calculateValue",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::calculateValue",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "81",
+      "method": "getType",
+      "description": "negated conditional",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "82",
+      "method": "getType",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::getType",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "85",
+      "method": "getType",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::getType",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "111",
+      "method": "groupBy",
+      "description": "removed call to org/apache/openjpa/jdbc/sql/Select::groupBy",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "95",
+      "method": "initialize",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::initialize",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "128",
+      "method": "load",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::load",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "120",
+      "method": "newSQLBuffer",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Math::calculateValue",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "122",
+      "method": "newSQLBuffer",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Math::appendTo",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "123",
+      "method": "newSQLBuffer",
+      "description": "replaced return value with null for org/apache/openjpa/jdbc/kernel/exps/Math::newSQLBuffer",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "106",
+      "method": "selectColumns",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::selectColumns",
+      "status": "NO_COVERAGE"
+    },
+    {
+      "line": "107",
+      "method": "selectColumns",
+      "description": "removed call to org/apache/openjpa/jdbc/kernel/exps/Val::selectColumns",
+      "status": "NO_COVERAGE"
+    }
+  ]
+}
