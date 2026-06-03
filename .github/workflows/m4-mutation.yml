@@ -1,0 +1,51 @@
+name: M4 Mutation Testing (De Angelis module)
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'm4_mutation/**'
+      - '.github/workflows/m4-mutation.yml'
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  mutation-testing:
+    runs-on: ubuntu-latest
+    name: Build, test, and run PIT mutation analysis
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Compile project
+        working-directory: m4_mutation
+        run: mvn clean compile -B
+
+      - name: Compile tests
+        working-directory: m4_mutation
+        run: mvn test-compile -B
+
+      - name: Run unit tests
+        working-directory: m4_mutation
+        run: mvn test -B
+
+      - name: Run PIT mutation coverage
+        working-directory: m4_mutation
+        run: mvn org.pitest:pitest-maven:mutationCoverage -B
+
+      - name: Upload PIT report as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-mutation-report
+          path: m4_mutation/target/pit-reports/
+          retention-days: 30
