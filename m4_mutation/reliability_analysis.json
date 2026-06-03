@@ -1,0 +1,50 @@
+{
+  "method": "Nelson model with uniform operational profile (as specified by De Angelis point 4.c)",
+  "formula": "R = passed_tests / total_tests",
+  "rationale": "Under a uniform operational profile, every test case is assumed equally likely to be triggered. R is the proportion of test executions that succeed.",
+  "C_B_original_class": {
+    "test_suite_composition": {
+      "BB_category_partition_manual": 11,
+      "Mockito_oracle_tests": 3,
+      "Randoop_random": 72
+    },
+    "total_tests": 86,
+    "passed": 86,
+    "failed": 0,
+    "reliability_R": 1.0,
+    "interpretation": "Perfect empirical reliability over the executed test suite."
+  },
+  "C_B_variants": {
+    "variants_tested": [
+      "C_B_1",
+      "C_B_2",
+      "C_B_3",
+      "C_B_4"
+    ],
+    "tests_per_variant": 72,
+    "passed_per_variant": 72,
+    "failed_per_variant": 0,
+    "reliability_per_variant": 1.0,
+    "interpretation": "All Copilot refactorings preserved full reliability under the test suite."
+  },
+  "C_A_classes": {
+    "status": "Not empirically computable",
+    "reason": "C_A_1 and C_A_2 do not compile (5 and 100 errors respectively). C_A_0's complex methods (Select/ExpContext/MetaDataRepository dependencies) cannot be tested in isolation without instantiating the full OpenJPA runtime, which is incompatible with modern Java. Documented as a threat to validity."
+  },
+  "caveats_and_threats": [
+    "Mutation analysis revealed 75% of Math.java code (NO_COVERAGE) is never executed by our test suite. R=1.0 reflects reliability over the covered ~25-60% portion only.",
+    "86 tests is a small sample; results have wide confidence intervals.",
+    "Uniform operational profile is an idealization; real production usage would weight some methods (e.g., getType, calculateValue) more heavily.",
+    "We did NOT need to disable any failing tests in this experiment (point 4.c bullet)."
+  ],
+  "final_table": {
+    "C_B_0 (original)": "R = 1.0 (86/86)",
+    "C_B_1 (no tests in refactor)": "R = 1.0 (72/72)",
+    "C_B_2 (with BB tests)": "R = 1.0 (72/72)",
+    "C_B_3 (with BB+LLM tests)": "R = 1.0 (72/72)",
+    "C_B_4 (with BB+LLM+CF tests)": "R = 1.0 (72/72)",
+    "C_A_0 (original)": "Not computable (see threats)",
+    "C_A_1 (no tests)": "Not computable (does not compile)",
+    "C_A_2 (with BB tests)": "Not computable (does not compile)"
+  }
+}
