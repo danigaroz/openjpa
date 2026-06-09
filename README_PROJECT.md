@@ -49,3 +49,4 @@ Submitted as separate PDFs through each instructor's procedure:
 ## CI status
 
 Workflow: M4 Mutation Testing — compiles, runs JUnit tests, executes PIT mutation analysis, and uploads the HTML report as a build artifact on every push affecting `m4_mutation/`.
+
